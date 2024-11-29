@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    display: grid;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+head{
+    font: 1.6rem "Roboto",sans-serif;
+    text-align: center;
+}
+body{
+    margin: 0;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    text-align: center;
+    font: 1.6rem "Roboto",sans-serif;
+    color: white;
+    background-color: #3b6986;
+
+}
+header a, .logo{
+    position: relative; /* Assure que le header reste au-dessus */
+    z-index: 2; /* Niveau supérieur pour apparaître devant la bannière */
+    padding: 20px;
+    text-align: center;
+    font-size: 8rem;
+}
+footer{
+    padding-top: 7rem;
+}
+/*image*/
+.FG, .forestgump, .MI, .mi, .sw, video{
+    z-index: 1;
+    align-items: center;
+    transform: scale(1);
+    transition: all 500ms ease-in-out;
+    transform-origin: center center;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+}
+.FG:hover, .forestgump:hover, .MI:hover, .mi:hover, .sw:hover, video:hover{
+    transform: scale(1.1);
+}
+.mi, .forestgump, .sw {
+    float: right;
+    margin-left: 5rem;
+}
+
+.FG, .MI {
+    float: left;
+    margin-right: 5rem;
+}
+/*paragraphe*/
+p{
+    text-align: justify;
+}
+div{
+    text-align: justify;
+    
+}
+/*barre de navigation*/
+.banniere{
+    position: absolute; /* La bannière est placée en arrière-plan */
+    top: 0;
+    left: 0;
+    width: 100%; /* Occupe toute la largeur de la page */
+    height: 250px; /* Hauteur de la bannière */
+    background: url('background-image.jpg') no-repeat center center;
+    background-size: cover;
+    z-index: 1; /* Niveau inférieur pour passer derrière le header */
+}
+nav ul{
+    display: inline-block;
+    line-height: 4.5rem;
+    font-size: 1.6rem;
+    width: calc(100% / 5);
+    text-align: center;
+}
+nav ul{
+    display: block;
+    transition: all 500ms ease-in-out;
+    box-shadow: black;
+}
+nav ul{
+    position: relative; /* Assure que le header reste au-dessus */
+    z-index: 2; /* Niveau supérieur pour apparaître devant la bannière */
+    color: rgb(204, 104, 250);
+    width: 78 rem;
+    margin: 0 auto;
+    font-size: 0;
+    margin-bottom: 2rem;
+    width: 100%; /* Largeur du rectangle */
+    height: 50%; /* Hauteur du rectangle */
+    background-color: rgba(255, 255, 255, 0.5); /* Violet avec transparence (50%) */
+}
+nav ul li{
+    position: relative; /* Assure que le header reste au-dessus */
+    z-index: 2; /* Niveau supérieur pour apparaître devant la bannière */
+    display: inline-block;
+    line-height: 4.5rem;
+    font-size: 1.2rem;
+    width: calc(100% / 5);
+    text-align: justify;
+    transition: all 500ms ease-in-out;
+    box-shadow: black;
+}
+nav ul li a{
+    color: rgb(183, 52, 244);
+    display: block;
+    transition: all 500ms ease-in-out;
+}
+nav ul li:hover a{
+    color: #3e00f8;
+}
+section h2{
+    text-align: left;
+    margin-bottom: 0.3rem;
+    padding: 1rem;
+    line-height: 4.5rem;
+}
+input {
+    padding: 4px 10px;
+    border: 0;
+    font-size: 16px;
+  }
+/*vidéo*/
+video {
+    margin-top: 2rem;
+    width: 67rem;
+    height: 38rem;
+    border: 2px solid #3b6986;
+    border-radius: 8px;
+}
+/*bouton*/
+.btn{
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+    background-color:  #1e5270;
+    display: relative;
+    border-radius: .2rem;
+    width: 20rem;
+    line-height: 3.5rem;
+    margin-bottom: .5rem;
+}

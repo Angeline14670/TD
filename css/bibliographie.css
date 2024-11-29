@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200&display=swap');
+/* media for desk */
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+    text-align: center;
+    font: 1.6rem "Roboto",sans-serif;
+    color: white;
+    background-color: #3b6986;   
+}
+*{
+    box-sizing: border-box;
+}
+html{
+    box-sizing: initial;
+    font-family: 'Bebas Neue', sans-serif;
+}
+header{
+    text-align: center;
+    font-size: 2rem;
+    
+}   
+footer{
+   text-align: center;
+    margin-top: 2rem;
+}
+.btn{
+    font-family: 'Bebas Neue';
+    font-size: large;
+    text-align: center;
+    color: #fff;
+    background-color:#1e5270;
+    display: relative;
+    border-radius: .2rem;
+    width: 67%;
+    line-height: 3.5rem;
+    margin-bottom: .5rem;
+}
+
+ 
