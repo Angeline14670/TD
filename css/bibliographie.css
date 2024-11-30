@@ -3,11 +3,12 @@
 *{
     box-sizing: border-box;
     
+
 }
 body{
     margin: 0;
-    text-align: center;
-    font: 1.6rem "Roboto",sans-serif;
+    text-align: justify;
+    font: 1.2rem "Roboto",sans-serif;
     color: white;
     background-color: #3b6986;   
 }
